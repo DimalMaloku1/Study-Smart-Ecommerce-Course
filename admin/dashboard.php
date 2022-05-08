@@ -27,7 +27,7 @@ if(!isset($admin_id)){
 </head>
 <body>
 
-<?php include '.../components/admin_header.php'; ?>
+<?php include '../components/admin_header.php'; ?>
 
 <section class="dashboard">
 
@@ -53,25 +53,10 @@ if(!isset($admin_id)){
             }
          ?>
          <h3><?= $total_pendings; ?><span>€</span></h3>
-         <p>pritjet totale</p>
+         <p>totali i pageses</p>
          <a href="placed_orders.php" class="btn">shikoni porosite</a>
       </div>
 
-      <div class="box">
-         <?php
-            $total_completes = 0;
-            $select_completes = $conn->prepare("SELECT * FROM `orders` WHERE payment_status = ?");
-            $select_completes->execute(['completed']);
-            if($select_completes->rowCount() > 0){
-               while($fetch_completes = $select_completes->fetch(PDO::FETCH_ASSOC)){
-                  $total_completes += $fetch_completes['total_price'];
-               }
-            }
-         ?>
-         <h3><?= $total_completes; ?><span>€</span></h3>
-         <p>porosite e perfunduara</p>
-         <a href="placed_orders.php" class="btn">shikoni porosite</a>
-      </div>
 
       <div class="box">
          <?php
