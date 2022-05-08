@@ -24,9 +24,9 @@ if(isset($_SESSION['user_id'])){
    
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
    
-   <!-- font awesome cdn link  -->
+   <!-- linku i fontit  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
+   <!-- linku i css  -->
    <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -67,6 +67,26 @@ if(isset($_SESSION['user_id'])){
          </div>
          <div class="content">
             <h3>kurs per javascript</h3>
+            <a href="shop.php" class="btn">bleni tani</a>
+         </div>
+      </div>
+
+      <div class="swiper-slide slide">
+         <div class="image">
+            <img src="images/php.png" alt="">
+         </div>
+         <div class="content">
+            <h3>kurs per php</h3>
+            <a href="shop.php" class="btn">bleni tani</a>
+         </div>
+      </div>
+
+      <div class="swiper-slide slide">
+         <div class="image">
+            <img src="images/mysql.png" alt="">
+         </div>
+         <div class="content">
+            <h3>kurs per mysql</h3>
             <a href="shop.php" class="btn">bleni tani</a>
          </div>
       </div>
