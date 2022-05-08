@@ -78,7 +78,7 @@ if(isset($_GET['delete'])){
    <?php
          }
       }else{
-         echo '<p class="empty">nuk ka ende porosi!</p>';
+         echo '<p class="empty">nuk kan blere ende kurse!</p>';
       }
    ?>
 
