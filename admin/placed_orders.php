@@ -63,12 +63,7 @@ if(isset($_GET['delete'])){
       <p> numri i telefonit: <span><?= $fetch_orders['number']; ?></span> </p>
       <p> qmimi total:<span> <?= $fetch_orders['total_price']; ?>€</span> </p>
       <p> metoda e pageses: <span><?= $fetch_orders['method']; ?></span> </p>
-      <form action="" method="post">
-         <input type="hidden" name="order_id" value="<?= $fetch_orders['id']; ?>">
-         <select name="payment_status" class="select">
-         <option value="pending">ne pritje</option>
-         <option value="pending">perfunduar</option>
-         </select>
+
         <div class="flex-btn">
          <input type="submit" value="perditeso" class="option-btn" name="update_payment">
          <a href="placed_orders.php?delete=<?= $fetch_orders['id']; ?>" class="delete-btn" onclick="return confirm('Fshijeni kete porosi?');">Fshije</a>
