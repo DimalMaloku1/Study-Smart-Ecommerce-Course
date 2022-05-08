@@ -20,7 +20,7 @@
       <nav class="navbar">
          <a href="../admin/dashboard.php">dashboard</a>
          <a href="../admin/products.php">kurset</a>
-         <a href="../admin/placed_orders.php">porosite</a>
+         <a href="../admin/placed_orders.php">pagesat</a>
          <a href="../admin/admin_accounts.php">adminat</a>
          <a href="../admin/users_accounts.php">userat</a>
       </nav>
