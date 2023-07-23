@@ -16,7 +16,7 @@ Study-Smart Ecommerce Course is a web application that was built using HTML, CSS
  content, and monitoring student progress.
  
  ⭐ Course Reviews and Ratings: Students can leave reviews and ratings for courses they have completed, helping others make informed    
- decisions.
+    decisions.
  
  🔍 Search and Filters: Users can search for courses based on keywords and apply filters to refine their search results.
  
