@@ -45,6 +45,6 @@ The project roadmap includes the following potential enhancements:
 
 📱 Responsive Design: Ensuring the website is fully responsive and accessible on various devices, including desktops, tablets, and mobile phones.
 
-##🎓 Conclusion
+## 🎓 Conclusion
 
 Study-Smart Ecommerce Course is an ambitious project that aspires to revolutionize online learning by providing a user-friendly and dynamic platform for students and instructors alike. By leveraging HTML, CSS, JavaScript, PHP, and MySQL technologies, the project aims to enhance the e-learning experience and make education accessible to a broader audience. 🌟
