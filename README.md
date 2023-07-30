@@ -1,19 +1,16 @@
 # 📚 Study-Smart Ecommerce Course Project 🎓
 
-Study-Smart Ecommerce Course is a web application that was built using HTML, CSS, JavaScript, PHP, and MySQL technologies. The project aims to provide an interactive and user-friendly platform for students to access and enroll in various online courses related to different subjects and fields of study.
+Study-Smart Ecommerce Course is a web application that was built using HTML, CSS, JavaScript, PHP, and MySQL technologies. The project aims to provide an interactive and user-friendly platform for students to access and purchase various online courses related to different subjects and fields of study.
 
 ## 🔑 Key Features
 
- 📖 Course Catalog: The platform offers a comprehensive catalog of courses, each with detailed descriptions, instructors' information, and 
- pricing details.
+ 📖 Course Catalog: The platform offers a comprehensive catalog of courses, each with detailed descriptions, instructors' information, and pricing details.
  
- 📝 User Registration and Authentication: Students can register and create accounts on the website. The authentication system ensures secure 
- access to user-specific content.
+ 📝 User Registration and Authentication: Students can register and create accounts on the website. The authentication system ensures secure access to user-specific content.
 
- 💼 Enrollment and Payment: Once logged in, students can enroll in their desired courses and complete the payment process securely.
+ 💼 Course Purchase: Once logged in, students can browse the course catalog and purchase their desired courses securely online.
  
- 🎓 Course Management: Instructors have access to a user-friendly interface to manage their courses, including adding new courses, updating 
- content, and monitoring student progress.
+ 🎓 Course Management: Instructors have access to a user-friendly interface to manage their courses, including adding new courses, updating content, and monitoring student progress.
  
  ⭐ Course Reviews and Ratings: Students can leave reviews and ratings for courses they have completed, helping others make informed decisions.
  
